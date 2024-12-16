@@ -1,0 +1,137 @@
+<!-- ID-->
+<div class="Fate-Table-SBS">
+    <div class="row">
+        <div class="column">
+            <div class="Fate-Text-5 Fate-BG-Dark">ID</div>
+            <div class="Fate-Text-6 Fate-BG-Light">{{ $Name }}</div>
+            <div class="Fate-Text-6 Fate-BG-Light">{{ $Description }}</div>
+        </div>
+    
+        <div class="column">
+            <div class="Fate-Text-5 Fate-BG-Dark Fate-Text-Right">Refresh:</div>
+            <div class="Fate-Text-5 Fate-BG-Light Fate-Text-Right"> {{ $Refresh }} </div>
+    
+        </div>
+    </div>
+</div>
+
+<!-- Aspects and Skills -->
+<div class="Fate-Table-SBS">
+    <div class="row Fate-BG-Dark">
+        <div class="column column-border-small-dark">
+            <div class="Fate-Text-5 Fate-BG-Dark">Aspects</div>
+            <div class="Fate-Text-6 Fate-BG-Light"><u>High Concept:</u> {{ $HighConcept }}</div>
+            <div class="Fate-Text-6 Fate-BG-Light"><u>Trouble:</u> {{ $Trouble }}</div>
+            <div class="Fate-Text-6 Fate-BG-Light"><u>Aspect:</u> {{ $Aspect1 }}</div>
+            <div class="Fate-Text-6 Fate-BG-Light"><u>Aspect:</u> {{ $Aspect2 }}</div>
+            <div class="Fate-Text-6 Fate-BG-Light"><u>Aspect:</u> {{ $Aspect3 }}</div>
+        </div>
+    
+        <div class="column column-border-small-dark">
+            <div class="Fate-Text-5 Fate-BG-Dark">Skills</div>
+            <div class="row">
+                <div class="column-slim Fate-Text-6 Fate-Skills-Cell-Disabled"> {{ $Superb1 }} </div>
+                <div class="column-slim Fate-Text-6 Fate-Skills-Cell-Disabled"> {{ $Superb2 }} </div>
+                <div class="column-slim Fate-Text-6 Fate-Skills-Cell-Disabled"> {{ $Superb3 }} </div>
+                <div class="column-slim Fate-Text-6 Fate-Skills-Cell-Disabled"> {{ $Superb4 }} </div>
+                <div class="column-slim Fate-Text-6 Fate-Skills-Cell-Disabled"> {{ $Superb5 }} </div>
+            </div>
+            <div class="row">
+                <div class="column-slim Fate-Text-6 Fate-Skills-Cell-Light"> {{ $Great1 }} </div>
+                <div class="column-slim Fate-Text-6 Fate-Skills-Cell-Disabled"> {{ $Great2 }} </div>
+                <div class="column-slim Fate-Text-6 Fate-Skills-Cell-Disabled"> {{ $Great3 }} </div>
+                <div class="column-slim Fate-Text-6 Fate-Skills-Cell-Disabled"> {{ $Great4 }} </div>
+                <div class="column-slim Fate-Text-6 Fate-Skills-Cell-Disabled"> {{ $Great5 }} </div>
+            </div>
+
+            <div class="row">
+                <div class="column-slim Fate-Text-6 Fate-Skills-Cell-Light"> {{ $Good1 }} </div>
+                <div class="column-slim Fate-Text-6 Fate-Skills-Cell-Light"> {{ $Good2 }} </div>
+                <div class="column-slim Fate-Text-6 Fate-Skills-Cell-Disabled"> {{ $Good3 }} </div>
+                <div class="column-slim Fate-Text-6 Fate-Skills-Cell-Disabled"> {{ $Good4 }} </div>
+                <div class="column-slim Fate-Text-6 Fate-Skills-Cell-Disabled"> {{ $Good5 }} </div>
+            </div>
+
+            <div class="row">
+                <div class="column-slim Fate-Text-6 Fate-Skills-Cell-Light"> {{ $Fair1 }} </div>
+                <div class="column-slim Fate-Text-6 Fate-Skills-Cell-Light"> {{ $Fair2 }} </div>
+                <div class="column-slim Fate-Text-6 Fate-Skills-Cell-Light"> {{ $Fair3 }} </div>
+                <div class="column-slim Fate-Text-6 Fate-Skills-Cell-Disabled"> {{ $Fair4 }} </div>
+                <div class="column-slim Fate-Text-6 Fate-Skills-Cell-Disabled"> {{ $Fair5 }} </div>
+            </div>
+
+            <div class="row">
+                <div class="column-slim Fate-Text-6 Fate-Skills-Cell-Light"> {{ $Average1 }} </div>
+                <div class="column-slim Fate-Text-6 Fate-Skills-Cell-Light"> {{ $Average2 }} </div>
+                <div class="column-slim Fate-Text-6 Fate-Skills-Cell-Light"> {{ $Average3 }} </div>
+                <div class="column-slim Fate-Text-6 Fate-Skills-Cell-Light"> {{ $Average4 }} </div>
+                <div class="column-slim Fate-Text-6 Fate-Skills-Cell-Disabled"> {{ $Average5 }} </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Extras and Stunts-->
+<div class="Fate-Table-SBS">
+    <div class="row">
+        <div class="column-big column-border-small-dark">
+            <div class="Fate-Text-5 Fate-BG-Dark">Extras</div>
+            <div class="Fate-Text-6 Fate-BG-Light">{{ $Extras }}</div>
+        </div>
+    
+        <div class="column-big column-border-small-dark">
+            <div class="Fate-Text-5 Fate-BG-Dark">Stunts</div>
+            <div class="Fate-Text-6 Fate-BG-Light"> {{ $Stunts }} </div>
+    
+        </div>
+    </div>
+</div>
+
+<!-- Stress and Condequences -->
+<div class="Fate-Table-SBS">
+    <div class="row">
+        <div class="column-big column-border-small-dark">
+                <div class="Fate-Text-5 Fate-BG-Dark">Physical Stress</div>
+                <div class="row">
+                    <div class="Fate-Text-6 Fate-BG-Light">
+                        <div class="Fate-Stress-Container">
+                            <div>1 <label><input class="Fate-Stress-Checkbox" type="checkbox"> </label> </div>
+                            <div>2 <label><input class="Fate-Stress-Checkbox" type="checkbox"> </label> </div>
+                            <div>3 <label><input class="Fate-Stress-Checkbox" type="checkbox"> </label> </div>
+                            <div>4 <label><input class="Fate-Stress-Checkbox" type="checkbox"> </label> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row Fate-Text-5 Fate-BG-Dark">Mental Stress</div>
+                <div class="row">
+                    <div class="Fate-Text-6 Fate-BG-Light">
+                        <div class="Fate-Stress-Container">
+                            <div>1 <label><input class="Fate-Stress-Checkbox" type="checkbox"> </label> </div>
+                            <div>2 <label><input class="Fate-Stress-Checkbox" type="checkbox"> </label> </div>
+                            <div>3 <label><input class="Fate-Stress-Checkbox" type="checkbox"> </label> </div>
+                            <div>4 <label><input class="Fate-Stress-Checkbox" type="checkbox"> </label> </div>
+                        </div>    
+                    </div>
+                </div>
+        </div>
+    
+        <div class="column-big column-border-small-dark">
+            <div class="Fate-Text-5 Fate-BG-Dark">Consequences</div>
+            
+            <div class="row Fate-BG-Light">
+                <div class="Fate-Text-6 Fate-BG-Light"> 2 - Mild - <span class="Fate-Consequences-1">{{ $Consequences2 }} </span> </div>
+                <div class="column-slim column-border-small-dark Fate-Text-6 Fate-BG-Light">
+                    2 - Mild - <span class="Fate-Consequences-1">{{ $Consequences2_1 }} </span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="Fate-Text-6 Fate-BG-Light"> 4 - Moderate - <span class="Fate-Consequences-1">{{ $Consequences4 }} </span> </div>
+            </div>
+            <div class="row">
+                <div class="Fate-Text-6 Fate-BG-Light"> 6 - Severe - <span class="Fate-Consequences-1">{{ $Consequences6 }} </span> </div>
+            </div>
+                
+        </div>
+    </div>
+</div>
